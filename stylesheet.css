@@ -1,0 +1,168 @@
+* {
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+body {
+    background-image: url(img/ground.jpg);
+    background-size: cover;
+
+}
+
+a {
+    text-decoration: none
+}
+
+.container {
+    padding-top: 100px;
+    background-color: rgb(216, 209, 198, 0.7);
+    height: 2000px;
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgba(77, 74, 71, 0.7);
+    width:1000px;
+    height:100px;
+    position: fixed;
+    top: 0px;
+}
+
+
+.header-logo a {
+    float: left;
+    line-height: 100px;
+    padding-left: 50px;
+    color: rgb(243, 226, 226,0.7);
+    font-size: 20px;
+   }
+
+.header-logo a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.header-list a {
+    display: inline-block;
+    float: right;
+    line-height: 100px;
+    padding-right: 40px;
+    padding-left: 50px;
+    color: rgb(243, 226, 226,0.7);
+}
+
+.header-list a:hover {
+    color: black;
+    font-weight: bold;
+}
+
+.main {
+    text-align: center;
+}
+
+.copy {
+    margin-top: 100px;
+    text-align: center;
+}
+
+
+.copy h1 {
+    font-size: 48px;
+    color: rgb(78, 74, 73);
+}
+
+.copy h2 {
+    font-size: 36px;
+    color: rgb(78, 74, 73);
+}
+
+
+video {
+    height: 300px;
+    width: 600px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+
+.title-call {
+    font-size: 24px;
+    text-align: center;
+    color: rgb(78, 74, 73);
+    display: block;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+} 
+
+.members-wrapper {
+    margin-left: 30px;
+    margin-bottom: 50px;
+}
+
+.member-icon {
+    float: left;
+    width: 32%;
+}
+
+
+.member-icon img {
+    height: 200px;
+    width: 220px;
+}
+
+
+.member-icon p {
+    font-size: 18px;
+}
+
+.clear {
+    clear: left;
+}
+
+.works p {
+    font-size: 24px;
+    color:rgb(181, 56, 28);
+}
+
+.history p {
+    font-size: 24px;
+    color:rgb(181, 56, 28);
+}
+
+
+.contact p {
+    font-size: 24px;
+    color:rgb(181, 56, 28);
+}
+
+.text-area {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.text-area img {
+    margin-top: 50px;
+    width: 700px;
+    height: 500px;
+    text-align: center;
+}
+
+
+
+footer  {
+    width:1000px;
+    height:100px;
+    margin: 0 auto;
+    background-color: rgb(77, 74, 71, 0.9);
+    text-align: center;
+}
+
+footer img {
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
